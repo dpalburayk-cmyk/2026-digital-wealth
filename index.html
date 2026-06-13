@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2026: The New Rules of Digital Wealth | Adrian Vale — Official Book Page</title>
+    <meta name="description" content="The strategic blueprint for building resilient digital ecosystems in the age of AI disruption. 3 pillars. 7 chapters. One self-reinforcing system. By Adrian Vale.">
+    <meta name="keywords" content="digital wealth 2026, AI business strategy, experience economy, digital sovereignty, augmented founder, Adrian Vale, intelligent value loop, digital transformation, AI disruption, future of work, self-reinforcing systems, book, Kindle, paperback">
+    <meta name="author" content="Adrian Vale">
+    <meta property="og:title" content="2026: The New Rules of Digital Wealth — by Adrian Vale">
+    <meta property="og:description" content="The 3-pillar framework for building digital wealth that compounds and endures. Available on Kindle & Paperback.">
+    <meta property="og:image" content="cover.jpg">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://mellow-gelato-3b693d.netlify.app">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="2026: The New Rules of Digital Wealth — Adrian Vale">
+    <meta name="twitter:description" content="The 3-pillar framework for building digital wealth that compounds and endures.">
+    <meta name="twitter:image" content="cover.jpg">
+    <link rel="canonical" href="https://mellow-gelato-3b693d.netlify.app">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; scroll-behavior: smooth; }
+        html { scroll-behavior: smooth; }
+        body { font-family: 'Segoe UI', system-ui, -apple-system, -apple-system-ui, sans-serif; background: #0a0a0a; color: #e0e0e0; line-height: 1.7; }
+
+        /* NAV */
+        nav { position: fixed; top: 0; width: 100%; z-index: 1000; background: rgba(10,10,10,0.92); backdrop-filter: blur(12px); border-bottom: 1px solid rgba(59,130,246,0.15); padding: 12px 20px; }
+        .nav-inner { max-width: 1100px; margin: 0 auto; display: flex; align-items: center; justify-content: space-between; }
+        .nav-logo { color: #fff; font-weight: 700; font-size: 1rem; text-decoration: none; }
+        .nav-logo span { color: #3b82f6; }
+        .nav-links { display: flex; gap: 20px; align-items: center; }
+        .nav-links a { color: #9ca3af; text-decoration: none; font-size: 0.85rem; transition: color 0.3s; }
+        .nav-links a:hover { color: #fff; }
+        .nav-buy { background: #3b82f6 !important; color: #fff !important; padding: 8px 18px; border-radius: 6px; font-weight: 600; }
+        .nav-buy:hover { background: #2563eb !important; }
+
+        /* HERO */
+        .hero { background: linear-gradient(160deg, #0a0a0a 0%, #1a1a2e 40%, #16213e 70%, #0f172a 100%); padding: 120px 20px 80px; text-align: center; position: relative; overflow: hidden; }
+        .hero::before { content: ''; position: absolute; top: -50%; left: -50%; width: 200%; height: 200%; background: radial-gradient(circle, rgba(59,130,246,0.06) 0%, transparent 60%); animation: heroGlow 10s ease-in-out infinite; }
+        @keyframes heroGlow { 0%, 100% { transform: scale(1); opacity: 0.5; } 50% { transform: scale(1.15); opacity: 1; } }
+
+        .container { max-width: 1100px; margin: 0 auto; padding: 0 20px; }
+        .hero-badge { display: inline-block; background: rgba(59,130,246,0.15); border: 1px solid rgba(59,130,246,0.3); color: #60a5fa; padding: 6px 16px; border-radius: 20px; font-size: 0.8rem; font-weight: 600; letter-spacing: 2px; text-transform: uppercase; margin-bottom: 20px; }
+        h1 { font-size: clamp(2.2rem, 5vw, 3.5rem); color: #ffffff; margin-bottom: 15px; font-weight: 800; line-height: 1.15; }
+        .hero-tagline { font-size: 1.15rem; color: #9ca3af; max-width: 650px; margin: 0 auto 10px; }
+        .hero-author { color: #60a5fa; font-size: 1rem; font-weight: 500; margin-bottom: 35px; }
+        .hero-quote { color: #64748b; font-style: italic; font-size: 0.95rem; max-width: 550px; margin: 0 auto 40px; border-left: 2px solid #3b82f6; padding-left: 15px; text-align: left; }
+
+        .cta-group { display: flex; gap: 15px; justify-content: center; flex-wrap: wrap; }
+        .btn { display: inline-block; padding: 15px 34px; border-radius: 8px; font-size: 1rem; font-weight: 600; text-decoration: none; transition: all 0.3s; cursor: pointer; border: none; }
+        .btn-primary { background: #3b82f6; color: #fff; }
+        .btn-primary:hover { background: #2563eb; transform: translateY(-2px); box-shadow: 0 8px 30px rgba(59,130,246,0.35); }
+        .btn-secondary { background: transparent; color: #fff; border: 2px solid rgba(59,130,246,0.5); }
+        .btn-secondary:hover { background: rgba(59,130,246,0.1); border-color: #3b82f6; }
+        .btn-dark { background: #1e293b; color: #fff; border: 1px solid #334155; }
+        .btn-dark:hover { background: #334155; }
+
+        .formats { display: flex; gap: 25px; justify-content: center; margin-top: 40px; flex-wrap: wrap; }
+        .format-card { background: rgba(255,255,255,0.04); border: 1px solid #1e3a5f; border-radius: 12px; padding: 20px 30px; text-align: center; }
+        .format-card .format-icon { font-size: 2rem; margin-bottom: 8px; }
+        .format-card h4 { color: #fff; font-size: 0.95rem; margin-bottom: 4px; }
+        .format-card p { color: #64748b; font-size: 0.8rem; }
+        .format-card .format-price { color: #60a5fa; font-size: 1.1rem; font-weight: 700; margin-top: 6px; }
+
+        /* COVER */
+        .cover-section { padding: 60px 20px; text-align: center; background: linear-gradient(180deg, #0f172a, #0a0a0a); }
+        .cover-3d { width: 260px; height: 390px; margin: 0 auto; transform: perspective(800px) rotateY(-8deg); transition: transform 0.5s; }
+        .cover-3d:hover { transform: perspective(800px) rotateY(0deg); }
+        .cover-3d img { width: 100%; height: 100%; object-fit: cover; border-radius: 8px; box-shadow: 20px 20px 60px rgba(0,0,0,0.6), 0 0 40px rgba(59,130,246,0.1); }
+
+        /* SECTION COMMON */
+        section { padding: 80px 20px; }
+        .section-label { color: #3b82f6; font-size: 0.8rem; letter-spacing: 3px; text-transform: uppercase; font-weight: 700; text-align: center; margin-bottom: 10px; }
+        .section-title { font-size: clamp(1.6rem, 3vw, 2.2rem); color: #fff; text-align: center; margin-bottom: 15px; font-weight: 700; }
+        .section-sub { color: #64748b; text-align: center; max-width: 650px; margin: 0 auto 50px; font-size: 1rem; }
+
+        /* ABOUT BOOK */
+        .about-book { background: #0a0a0a; }
+        .about-content { max-width: 800px; margin: 0 auto; color: #94a3b8; font-size: 1.02rem; line-height: 1.8; }
+        .about-content p { margin-bottom: 20px; }
+        .about-content strong { color: #e2e8f0; }
+
+        /* PILLARS */
+        .pillars-section { background: linear-gradient(180deg, #0a0a0a, #0f172a); }
+        .pillar-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 25px; }
+        .pillar-card { background: linear-gradient(150deg, #1e293b, #0f172a); border: 1px solid #1e3a5f; border-radius: 16px; padding: 35px 30px; transition: all 0.4s; position: relative; overflow: hidden; }
+        .pillar-card::before { content: ''; position: absolute; top: 0; left: 0; width: 100%; height: 3px; background: linear-gradient(90deg, transparent, var(--pillar-color, #3b82f6), transparent); }
+        .pillar-card:hover { transform: translateY(-6px); border-color: var(--pillar-color, #3b82f6); box-shadow: 0 20px 40px rgba(0,0,0,0.3); }
+        .pillar-card:nth-child(1) { --pillar-color: #3b82f6; }
+        .pillar-card:nth-child(2) { --pillar-color: #f59e0b; }
+        .pillar-card:nth-child(3) { --pillar-color: #8b5cf6; }
+        .pillar-icon { font-size: 2.8rem; margin-bottom: 18px; }
+        .pillar-card h3 { font-size: 1.15rem; color: #fff; margin-bottom: 12px; }
+        .pillar-card p { color: #94a3b8; font-size: 0.93rem; }
+        .pillar-features { list-style: none; margin-top: 15px; }
+        .pillar-features li { color: #64748b; font-size: 0.85rem; padding: 4px 0; }
+        .pillar-features li::before { content: '→ '; color: var(--pillar-color, #3b82f6); }
+
+        /* VALUE LOOP */
+        .loop-section { background: linear-gradient(135deg, #0f172a, #1a1a2e, #0f172a); text-align: center; }
+        .loop-diagram { display: flex; align-items: center; justify-content: center; gap: 12px; margin: 40px auto; flex-wrap: wrap; }
+        .loop-node { background: rgba(59,130,246,0.08); border: 1px solid rgba(59,130,246,0.3); border-radius: 14px; padding: 22px 28px; text-align: center; min-width: 160px; transition: all 0.3s; }
+        .loop-node:hover { background: rgba(59,130,246,0.15); border-color: #3b82f6; transform: scale(1.05); }
+        .loop-node strong { display: block; color: #60a5fa; margin-bottom: 6px; font-size: 1rem; }
+        .loop-node span { color: #94a3b8; font-size: 0.82rem; }
+        .loop-arrow { color: #3b82f6; font-size: 1.5rem; font-weight: 300; }
+
+        /* CHAPTERS */
+        .chapters-section { background: #0a0a0a; }
+        .chapters-list { max-width: 800px; margin: 0 auto; display: flex; flex-direction: column; gap: 15px; }
+        .chapter-item { background: rgba(255,255,255,0.03); border: 1px solid #1e293b; border-radius: 12px; padding: 22px 28px; transition: all 0.3s; cursor: default; }
+        .chapter-item:hover { border-color: #1e3a5f; background: rgba(255,255,255,0.05); }
+        .chapter-num { color: #3b82f6; font-weight: 800; font-size: 0.85rem; letter-spacing: 1px; text-transform: uppercase; margin-bottom: 6px; }
+        .chapter-item h4 { color: #fff; font-size: 1.05rem; margin-bottom: 6px; }
+        .chapter-item p { color: #64748b; font-size: 0.88rem; }
+
+        /* QUOTE */
+        .quote-section { background: linear-gradient(180deg, #0a0a0a, #0f172a); text-align: center; padding: 60px 20px; }
+        .pull-quote { max-width: 700px; margin: 0 auto; font-size: 1.3rem; color: #e2e8f0; font-style: italic; line-height: 1.6; position: relative; padding: 0 20px; }
+        .pull-quote::before { content: '"'; position: absolute; top: -20px; left: -10px; font-size: 4rem; color: rgba(59,130,246,0.2); font-style: normal; }
+        .pull-quote::after { content: '"'; position: absolute; bottom: -40px; right: -10px; font-size: 4rem; color: rgba(59,130,246,0.2); font-style: normal; }
+        .quote-attr { color: #60a5fa; margin-top: 25px; font-size: 0.9rem; font-style: normal; }
+
+        /* WHO SHOULD READ */
+        .audience-section { background: #0f172a; }
+        .audience-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 20px; max-width: 900px; margin: 0 auto; }
+        .audience-card { text-align: center; padding: 30px 20px; background: rgba(255,255,255,0.03); border: 1px solid #1e293b; border-radius: 12px; }
+        .audience-card .audience-icon { font-size: 2.2rem; margin-bottom: 12px; }
+        .audience-card h4 { color: #fff; font-size: 0.95rem; margin-bottom: 6px; }
+        .audience-card p { color: #64748b; font-size: 0.82rem; }
+
+        /* FREE CHAPTER / LEAD MAGNET */
+        .lead-magnet { background: linear-gradient(135deg, rgba(59,130,246,0.08), rgba(139,92,246,0.05)); border-top: 1px solid rgba(59,130,246,0.2); border-bottom: 1px solid rgba(59,130,246,0.2); text-align: center; padding: 70px 20px; }
+        .lead-magnet h2 { font-size: 1.6rem; color: #fff; margin-bottom: 12px; }
+        .lead-magnet > .container > p { color: #94a3b8; max-width: 550px; margin: 0 auto 30px; font-size: 0.95rem; }
+        .lead-excerpt { max-width: 650px; margin: 0 auto 35px; background: rgba(0,0,0,0.3); border: 1px solid #1e293b; border-radius: 12px; padding: 25px 30px; text-align: left; color: #94a3b8; font-size: 0.9rem; line-height: 1.7; font-style: italic; }
+        .lead-excerpt strong { color: #60a5fa; font-style: normal; }
+
+        /* REVIEWS */
+        .reviews-section { background: #0a0a0a; }
+        .reviews-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; }
+        .review-card { background: linear-gradient(150deg, #1e293b, #0f172a); border: 1px solid #1e3a5f; border-radius: 16px; padding: 30px; text-align: left; }
+        .review-stars { color: #f59e0b; font-size: 1rem; margin-bottom: 12px; }
+        .review-text { color: #94a3b8; font-style: italic; margin-bottom: 15px; font-size: 0.95rem; line-height: 1.6; }
+        .review-author { color: #60a5fa; font-size: 0.85rem; font-weight: 600; }
+        .review-role { color: #475569; font-size: 0.78rem; }
+
+        /* AUTHOR */
+        .author-section { background: linear-gradient(180deg, #0a0a0a, #0f172a); }
+        .author-content { max-width: 700px; margin: 0 auto; text-align: center; }
+        .author-content p { color: #94a3b8; font-size: 1rem; line-height: 1.8; margin-bottom: 20px; }
+        .author-social { display: flex; gap: 15px; justify-content: center; margin-top: 20px; }
+        .author-social a { color: #60a5fa; text-decoration: none; font-size: 0.9rem; padding: 8px 18px; border: 1px solid rgba(59,130,246,0.3); border-radius: 6px; transition: all 0.3s; }
+        .author-social a:hover { background: rgba(59,130,246,0.1); border-color: #3b82f6; }
+
+        /* FINAL CTA */
+        .final-cta { padding: 100px 20px; text-align: center; background: linear-gradient(135deg, #1a1a2e, #16213e, #0a0a0a); position: relative; overflow: hidden; }
+        .final-cta::before { content: ''; position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: radial-gradient(ellipse at center, rgba(59,130,246,0.08), transparent 70%); }
+        .final-cta h2 { font-size: clamp(1.8rem, 4vw, 2.4rem); color: #fff; margin-bottom: 15px; position: relative; }
+        .final-cta p { color: #9ca3af; margin-bottom: 35px; font-size: 1.05rem; max-width: 500px; margin-left: auto; margin-right: auto; position: relative; }
+
+        /* NEWSLETTER */
+        .nl-section { padding: 70px 20px; background: rgba(59,130,246,0.04); border-top: 1px solid rgba(59,130,246,0.1); }
+        .nl-section h2 { text-align: center; font-size: 1.5rem; color: #fff; margin-bottom: 12px; }
+        .nl-section > .container > p { text-align: center; color: #94a3b8; margin-bottom: 25px; }
+        .nl-form { max-width: 420px; margin: 0 auto; display: flex; gap: 10px; }
+        /* EMAIL FORMS (shared) */
+        .email-form { display: flex; gap: 10px; max-width: 480px; margin: 0 auto; }
+        .email-form input[type="email"] { flex: 1; padding: 14px 18px; border-radius: 8px; border: 1px solid #334155; background: #1e293b; color: #fff; font-size: 0.95rem; }
+        .email-form input[type="email"]::placeholder { color: #64748b; }
+        .email-form input[type="email"]:focus { outline: none; border-color: #3b82f6; }
+        .email-form button { padding: 14px 28px; background: #3b82f6; color: #fff; border: none; border-radius: 8px; font-weight: 600; cursor: pointer; transition: all 0.3s; white-space: nowrap; }
+        .email-form button:hover { background: #2563eb; }
+        .email-form .form-success { flex: 1; text-align: center; padding: 14px; color: #4ade80; font-weight: 600; }
+        .nl-form { display: flex; gap: 10px; max-width: 420px; margin: 0 auto; }
+        .nl-form input { flex: 1; padding: 14px 18px; border-radius: 8px; border: 1px solid #334155; background: #1e293b; color: #fff; font-size: 0.95rem; }
+        .nl-form input::placeholder { color: #64748b; }
+        .nl-form input:focus { outline: none; border-color: #3b82f6; }
+        .nl-form button { padding: 14px 28px; background: #3b82f6; color: #fff; border: none; border-radius: 8px; font-weight: 600; cursor: pointer; transition: all 0.3s; white-space: nowrap; }
+        .nl-form button:hover { background: #2563eb; }
+        .nl-note { text-align: center; color: #475569; font-size: 0.78rem; margin-top: 12px; }
+        .form-benefits { display: flex; gap: 15px; justify-content: center; margin-top: 20px; flex-wrap: wrap; }
+        .form-benefit { color: #64748b; font-size: 0.82rem; display: flex; align-items: center; gap: 6px; }
+        .form-benefit span { color: #4ade80; }
+
+        /* INLINE LEAD MAGNET FORM */
+        .lm-form-wrap { max-width: 480px; margin: 25px auto 0; }
+
+        /* STICKY BAR */
+        .sticky-bar { position: fixed; bottom: 0; width: 100%; z-index: 999; background: rgba(15,23,42,0.95); backdrop-filter: blur(12px); border-top: 1px solid rgba(59,130,246,0.3); padding: 12px 20px; transform: translateY(100%); transition: transform 0.4s ease; }
+        .sticky-bar.visible { transform: translateY(0); }
+        .sticky-bar-inner { max-width: 900px; margin: 0 auto; display: flex; align-items: center; gap: 15px; }
+        .sticky-bar-text { color: #e2e8f0; font-size: 0.9rem; font-weight: 500; white-space: nowrap; }
+        .sticky-bar-text span { color: #60a5fa; }
+        .sticky-bar .email-form { flex: 1; max-width: 400px; margin: 0; }
+        .sticky-bar .email-form input { padding: 10px 14px; font-size: 0.88rem; }
+        .sticky-bar .email-form button { padding: 10px 20px; font-size: 0.88rem; }
+        .sticky-close { background: none; border: none; color: #64748b; cursor: pointer; font-size: 1.3rem; padding: 5px 10px; line-height: 1; transition: color 0.3s; flex-shrink: 0; }
+        .sticky-close:hover { color: #fff; }
+
+        /* EXIT POPUP */
+        .exit-overlay { position: fixed; inset: 0; z-index: 10000; background: rgba(0,0,0,0.7); backdrop-filter: blur(6px); display: none; align-items: center; justify-content: center; padding: 20px; }
+        .exit-overlay.active { display: flex; }
+        .exit-popup { background: linear-gradient(150deg, #1e293b, #0f172a); border: 1px solid rgba(59,130,246,0.3); border-radius: 20px; padding: 40px 35px; max-width: 480px; width: 100%; text-align: center; position: relative; animation: popIn 0.3s ease; }
+        @keyframes popIn { from { opacity: 0; transform: scale(0.9) translateY(20px); } to { opacity: 1; transform: scale(1) translateY(0); } }
+        .exit-popup h3 { font-size: 1.3rem; color: #fff; margin-bottom: 10px; }
+        .exit-popup p { color: #94a3b8; font-size: 0.92rem; margin-bottom: 25px; line-height: 1.5; }
+        .exit-popup .email-form { margin-bottom: 15px; }
+        .exit-close { position: absolute; top: 12px; right: 16px; background: none; border: none; color: #64748b; font-size: 1.5rem; cursor: pointer; line-height: 1; transition: color 0.3s; }
+        .exit-close:hover { color: #fff; }
+        .exit-discount { display: inline-block; background: rgba(250,204,21,0.1); border: 1px solid rgba(250,204,21,0.3); color: #facc15; padding: 4px 12px; border-radius: 4px; font-size: 0.78rem; font-weight: 600; margin-bottom: 15px; }
+
+        @media (max-width: 768px) {
+            .sticky-bar-inner { flex-direction: column; gap: 10px; }
+            .sticky-bar-text { white-space: normal; }
+            .form-benefits { flex-direction: column; align-items: center; }
+        }
+
+        /* FOOTER */
+        footer { padding: 40px 20px; text-align: center; border-top: 1px solid #1e293b; background: #0a0a0a; }
+        .footer-links { display: flex; gap: 20px; justify-content: center; flex-wrap: wrap; margin: 15px 0; }
+        .footer-links a { color: #60a5fa; text-decoration: none; font-size: 0.85rem; transition: color 0.3s; }
+        .footer-links a:hover { color: #fff; }
+        .footer-copy { color: #475569; font-size: 0.8rem; }
+        .footer-search { color: #64748b; font-size: 0.82rem; margin-top: 8px; }
+        .footer-search a { color: #60a5fa; text-decoration: none; }
+
+        /* RESPONSIVE */
+        @media (max-width: 768px) {
+            .hero { padding: 100px 15px 60px; }
+            .cover-3d { width: 200px; height: 300px; }
+            .formats { flex-direction: column; align-items: center; }
+            .loop-diagram { flex-direction: column; }
+            .loop-arrow { transform: rotate(90deg); }
+            .cta-group { flex-direction: column; align-items: center; }
+            .nav-links a:not(.nav-buy) { display: none; }
+            .nl-form { flex-direction: column; }
+            .pull-quote { font-size: 1.1rem; }
+        }
+    </style>
+    <!-- Structured Data for SEO -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Book",
+        "name": "2026: The New Rules of Digital Wealth",
+        "author": { "@type": "Person", "name": "Adrian Vale" },
+        "bookFormat": ["EBook", "Paperback"],
+        "isbn": "9798347143993",
+        "description": "A strategic blueprint for building resilient digital ecosystems in the age of AI disruption. The 3-pillar framework: The Augmented Founder, The Experience Economy, Digital Sovereignty.",
+        "genre": ["Business", "Digital Strategy", "AI", "Entrepreneurship"],
+        "numberOfPages": 81,
+        "publisher": { "@type": "Organization", "name": "Independently Published" }
+    }
+    </script>
+</head>
+<body>
+
+<!-- Navigation -->
+<nav>
+    <div class="nav-inner">
+        <a href="#" class="nav-logo">2026<span>:NRDW</span></a>
+        <div class="nav-links">
+            <a href="#about">About</a>
+            <a href="#pillars">Framework</a>
+            <a href="#chapters">Chapters</a>
+            <a href="#reviews">Reviews</a>
+            <a href="https://www.amazon.com/dp/B0H4RHY61P" class="nav-buy" target="_blank">Buy Now</a>
+        </div>
+    </div>
+</nav>
+
+<!-- Hero -->
+<section class="hero">
+    <div class="container">
+        <div class="hero-badge">Strategic Blueprint for 2026</div>
+        <h1>The New Rules of<br>Digital Wealth</h1>
+        <p class="hero-tagline">The 3-pillar framework for building resilient digital ecosystems in the age of AI disruption</p>
+        <p class="hero-author">by Adrian Vale</p>
+        <div class="hero-quote">The founders who will thrive are not the ones who optimize harder. They are the ones who redesign entirely.</div>
+        <div class="cta-group">
+            <a href="https://www.amazon.com/dp/B0H4RHY61P" class="btn btn-primary" target="_blank" rel="noopener">📖 Buy on Amazon</a>
+            <a href="#free-chapter" class="btn btn-secondary">📥 Read Chapter 1 Free</a>
+        </div>
+        <div class="formats">
+            <div class="format-card">
+                <div class="format-icon">📱</div>
+                <h4>Kindle eBook</h4>
+                <p>KDP Select · Kindle Unlimited</p>
+                <div class="format-price">$9.99</div>
+            </div>
+            <div class="format-card">
+                <div class="format-icon">📕</div>
+                <h4>Paperback</h4>
+                <p>6×9 in · 81 pages · B&W</p>
+                <div class="format-price">$14.99</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Book Cover -->
+<section class="cover-section">
+    <div class="cover-3d">
+        <img src="cover.jpg" alt="2026: The New Rules of Digital Wealth — Book Cover by Adrian Vale" loading="eager">
+    </div>
+</section>
+
+<!-- About the Book -->
+<section class="about-book" id="about">
+    <div class="container">
+        <p class="section-label">About the Book</p>
+        <h2 class="section-title">The Digital Playbook Is Expiring.</h2>
+        <p class="section-sub">Not because you executed it poorly — but because the game itself has fundamentally changed.</p>
+        <div class="about-content">
+            <p>By 2026, information is no longer scarce. AI generates competent content in seconds. Organic reach is throttled. Platform algorithms extract more than they distribute. And the strategies that once produced compounding returns — content funnels, SEO-driven authority, platform-native growth — now produce <strong>diminishing ones</strong>.</p>
+            <p><strong>2026: The New Rules of Digital Wealth</strong> is a strategic blueprint for that redesign. Drawing on frameworks tested with founders, consultants, and senior executives across industries, this book presents a rigorous architecture for transforming a fragile, platform-dependent operation into a <strong>resilient, self-governing digital ecosystem</strong>.</p>
+            <p>The framework rests on three foundational pillars: <strong>The Augmented Founder</strong> — shifting from task execution to system design; <strong>The Experience Economy</strong> — moving beyond information delivery to identity-level transformation; and <strong>Digital Sovereignty</strong> — reclaiming ownership of your audience, data, and community.</p>
+            <p>When these three pillars converge, they form the <strong>Intelligent Value Loop</strong>: a self-reinforcing system in which AI-driven efficiency fuels human transformation, which generates data and engagement that strengthen sovereign community infrastructure, which in turn continuously optimizes the entire system.</p>
+            <p>Written for <strong>founders, consultants, executives, and senior decision makers</strong> navigating the intersection of artificial intelligence, digital strategy, and organizational design.</p>
+        </div>
+    </div>
+</section>
+
+<!-- 3 Pillars -->
+<section class="pillars-section" id="pillars">
+    <div class="container">
+        <p class="section-label">The Framework</p>
+        <h2 class="section-title">Three Pillars. One System.</h2>
+        <p class="section-sub">A self-reinforcing architecture for digital wealth that compounds and endures.</p>
+        <div class="pillar-grid">
+            <div class="pillar-card">
+                <div class="pillar-icon">🔵</div>
+                <h3>The Augmented Founder</h3>
+                <p>System-based thinking over task execution. Leverage AI as a cognitive extension — not just a tool. Build intelligent workflows that scale your output without scaling your hours.</p>
+                <ul class="pillar-features">
+                    <li>Cognitive Leverage</li>
+                    <li>System Architecture</li>
+                    <li>Strategic Oversight</li>
+                    <li>Human-AI Symbiosis</li>
+                    <li>Eliminating Bottlenecks</li>
+                </ul>
+            </div>
+            <div class="pillar-card">
+                <div class="pillar-icon">🟡</div>
+                <h3>The Experience Economy</h3>
+                <p>Identity transformation over content delivery. In a world where AI commoditizes knowledge, genuine human transformation becomes the scarcest and most valuable offering.</p>
+                <ul class="pillar-features">
+                    <li>Live Rituals & Belonging</li>
+                    <li>Curated Communities</li>
+                    <li>Verifiable Milestones</li>
+                    <li>Premium Pricing Power</li>
+                    <li>Algorithm-Proof Advocacy</li>
+                </ul>
+            </div>
+            <div class="pillar-card">
+                <div class="pillar-icon">🟣</div>
+                <h3>Digital Sovereignty</h3>
+                <p>Landowner architecture over tenant dependency. Own your audience, data, and community — not rent them from platforms that can revoke access overnight.</p>
+                <ul class="pillar-features">
+                    <li>Verifiable Digital Assets</li>
+                    <li>Programmable Incentives</li>
+                    <li>Participatory Governance</li>
+                    <li>Community Ownership</li>
+                    <li>Platform Independence</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Intelligent Value Loop -->
+<section class="loop-section">
+    <div class="container">
+        <p class="section-label">The Core Architecture</p>
+        <h2 class="section-title">The Intelligent Value Loop</h2>
+        <p class="section-sub">When these three pillars converge, they form a self-reinforcing system that compounds results.</p>
+        <div class="loop-diagram">
+            <div class="loop-node">
+                <strong>🤖 AI Efficiency</strong>
+                <span>Drives the system</span>
+            </div>
+            <div class="loop-arrow">→</div>
+            <div class="loop-node">
+                <strong>🎯 Human Transformation</strong>
+                <span>Generates data & engagement</span>
+            </div>
+            <div class="loop-arrow">→</div>
+            <div class="loop-node">
+                <strong>🌍 Sovereign Community</strong>
+                <span>Optimizes AI continuously</span>
+            </div>
+            <div class="loop-arrow">↺</div>
+        </div>
+        <p style="color:#64748b; max-width:600px; margin:0 auto; font-size:0.92rem;">The book presents the <strong style="color:#60a5fa;">5-stage convergence roadmap</strong> to build your own Intelligent Value Loop — from initial AI deployment to full system compounding.</p>
+    </div>
+</section>
+
+<!-- Chapters -->
+<section class="chapters-section" id="chapters">
+    <div class="container">
+        <p class="section-label">Table of Contents</p>
+        <h2 class="section-title">What You'll Discover</h2>
+        <p class="section-sub">7 chapters designed for founders, executives, and decision makers.</p>
+        <div class="chapters-list">
+            <div class="chapter-item">
+                <div class="chapter-num">Chapter 1</div>
+                <h4>The Great Unlearning</h4>
+                <p>Why old strategies are expiring. The Illusion of Stability. Status Quo Bias. Identity Lock-In. Why "this has always worked" is the most dangerous sentence in business. The 3 conditions that created the digital middle class — and why they're gone permanently.</p>
+            </div>
+            <div class="chapter-item">
+                <div class="chapter-num">Chapter 2</div>
+                <h4>The Augmented Founder</h4>
+                <p>5 principles for system-based thinking: Cognitive Leverage, System Architecture, Strategic Oversight, Human-AI Symbiosis, and Eliminating Bottlenecks. How to embed mastery within scalable systems.</p>
+            </div>
+            <div class="chapter-item">
+                <div class="chapter-num">Chapter 3</div>
+                <h4>The Experience Economy</h4>
+                <p>Why AI commoditizes knowledge in seconds. Live rituals, curated communities, verifiable milestones, and premium pricing that no algorithm can compete with. From transaction to identity.</p>
+            </div>
+            <div class="chapter-item">
+                <div class="chapter-num">Chapter 4</div>
+                <h4>Digital Sovereignty</h4>
+                <p>Reclaiming what platforms took. Verifiable digital assets, programmable incentives, participatory governance. Transforming passive consumers into invested co-owners. The landowner architecture.</p>
+            </div>
+            <div class="chapter-item">
+                <div class="chapter-num">Chapter 5</div>
+                <h4>The Intelligent Value Loop</h4>
+                <p>The 5-stage convergence roadmap for self-reinforcing systems. When AI efficiency, human transformation, and sovereign community infrastructure converge into compounding momentum.</p>
+            </div>
+            <div class="chapter-item">
+                <div class="chapter-num">Chapter 6</div>
+                <h4>Adaptive Architecture</h4>
+                <p>Foresight practices, decision architecture, and quarterly premortem rituals. The cognitive discipline required to sustain advantage through disruption. Keeping systems adaptive, not brittle.</p>
+            </div>
+            <div class="chapter-item">
+                <div class="chapter-num">Chapter 7</div>
+                <h4>Digital Legacy</h4>
+                <p>Encoding values into structure. Generational relevance. Succession planning. Ethical scaling. The question that separates operators from true builders: are you constructing something worthy of outlasting you?</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Pull Quote -->
+<section class="quote-section">
+    <div class="container">
+        <blockquote class="pull-quote">
+            Leverage that can be revoked is not leverage. It is dependency.
+        </blockquote>
+        <p class="quote-attr">— Chapter 4: Digital Sovereignty</p>
+    </div>
+</section>
+
+<!-- Who Should Read -->
+<section class="audience-section">
+    <div class="container">
+        <p class="section-label">Who This Book Is For</p>
+        <h2 class="section-title">Built for Builders</h2>
+        <div class="audience-grid">
+            <div class="audience-card">
+                <div class="audience-icon">🚀</div>
+                <h4>Founders & CEOs</h4>
+                <p>Redesign your business model for the AI age</p>
+            </div>
+            <div class="audience-card">
+                <div class="audience-icon">📊</div>
+                <h4>Executives & VPs</h4>
+                <p>Navigate digital transformation with clarity</p>
+            </div>
+            <div class="audience-card">
+                <div class="audience-icon">💡</div>
+                <h4>Consultants & Advisors</h4>
+                <p>Frameworks for clients facing disruption</p>
+            </div>
+            <div class="audience-card">
+                <div class="audience-icon">🎯</div>
+                <h4>Decision Makers</h4>
+                <p>Build systems that outlast the next trend</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Free Chapter Lead Magnet -->
+<section class="lead-magnet" id="free-chapter">
+    <div class="container">
+        <h2>📥 Read Chapter 1 Free</h2>
+        <p>Get "The Great Unlearning" — the full first chapter — delivered to your inbox. No strings attached.</p>
+        <div class="lead-excerpt">
+            <strong>"This has always worked"</strong> is not a statement of fact. It is a psychological anchor — and anchors sink ships when the tide changes. Psychologists call this Status Quo Bias: the systematic tendency to overvalue what we already possess, not because it is superior, but because it is familiar. The friction you feel today — rising ad costs, shrinking organic reach, audience fatigue, diminishing returns — is not a collection of isolated problems. These are symptoms of a deeper instability: the breakdown of an equilibrium that once rewarded the strategies you built your business on.
+        </div>
+        <div class="lm-form-wrap">
+            <form class="email-form" name="lead-magnet" data-netlify="true" action="#" method="post" onsubmit="handleFormSubmit(event, this)">
+                <input type="hidden" name="form-name" value="lead-magnet">
+                <input type="hidden" name="bot-field" class="bot-field">
+                <input type="email" name="email" placeholder="Enter your email address" required autocomplete="email">
+                <button type="submit">📥 Get Chapter 1 Free</button>
+            </form>
+            <p style="color:#475569; font-size:0.78rem; margin-top:8px;">Instant delivery. No spam. Unsubscribe anytime.</p>
+        </div>
+        <div class="cta-group" style="margin-top: 20px;">
+            <a href="https://www.amazon.com/dp/B0H4RHY61P" class="btn btn-dark" target="_blank" rel="noopener">📖 Buy the Full Book Instead</a>
+        </div>
+    </div>
+</section>
+
+<!-- Reviews -->
+<section class="reviews-section" id="reviews">
+    <div class="container">
+        <p class="section-label">Praise</p>
+        <h2 class="section-title">What Readers Are Saying</h2>
+        <div class="reviews-grid">
+            <div class="review-card">
+                <div class="review-stars">★★★★★</div>
+                <p class="review-text">"This book changed how I think about my entire digital business. The 3-pillar framework is immediately actionable — I started restructuring my operations the same day I finished reading."</p>
+                <p class="review-author">— Early Reader</p>
+                <p class="review-role">Digital Business Founder</p>
+            </div>
+            <div class="review-card">
+                <div class="review-stars">★★★★★</div>
+                <p class="review-text">"Finally — a book that goes beyond hype and delivers a rigorous, implementable architecture for the AI age. The Intelligent Value Loop alone is worth the investment."</p>
+                <p class="review-author">— Executive Reader</p>
+                <p class="review-role">VP of Strategy, Fortune 500</p>
+            </div>
+            <div class="review-card">
+                <div class="review-stars">★★★★★</div>
+                <p class="review-text">"Digital Sovereignty alone is worth 10x the price. Every founder needs to understand that the audience they built on platforms doesn't actually belong to them."</p>
+                <p class="review-author">— Early Reviewer</p>
+                <p class="review-role">Startup Advisor</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Author -->
+<section class="author-section">
+    <div class="container">
+        <p class="section-label">About the Author</p>
+        <div class="author-content">
+            <h2 class="section-title">Adrian Vale</h2>
+            <p>Adrian Vale is a strategist and advisor to founders, executives, and senior decision makers navigating the intersection of artificial intelligence, digital strategy, and organizational design.</p>
+            <p>His frameworks have been implemented across multiple industries, helping organizations transform from fragile, platform-dependent operations into resilient, self-governing digital ecosystems.</p>
+            <div class="author-social">
+                <a href="https://www.linkedin.com/in/adrian-vale-14a7363a3" target="_blank" rel="noopener">LinkedIn</a>
+                <a href="https://www.amazon.com/dp/B0H4RHY61P" target="_blank" rel="noopener">Amazon Author</a>
+                <a href="https://www.goodreads.com" target="_blank" rel="noopener">Goodreads</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Final CTA -->
+<section class="final-cta">
+    <div class="container">
+        <h2>Start Building Your Digital Wealth Today</h2>
+        <p>The old playbook is expiring. The question isn't whether to adapt — it's how fast.</p>
+        <div class="cta-group">
+            <a href="https://www.amazon.com/dp/B0H4RHY61P" class="btn btn-primary" target="_blank" rel="noopener">📖 Get Your Copy — $9.99 Kindle / $14.99 Paperback</a>
+            <a href="#free-chapter" class="btn btn-secondary">📥 Free Chapter First</a>
+        </div>
+    </div>
+</section>
+
+<!-- Newsletter -->
+<section class="nl-section" id="newsletter">
+    <div class="container">
+        <h2>Join 1,000+ Founders Building Digital Wealth</h2>
+        <p>Get exclusive updates, early access to new books, special discounts, and strategic insights on AI & digital wealth. Join the inner circle.</p>
+        <form class="nl-form" name="newsletter" data-netlify="true" action="#" method="post" onsubmit="handleFormSubmit(event, this)">
+            <input type="hidden" name="form-name" value="newsletter">
+            <input type="hidden" name="bot-field" class="bot-field">
+            <input type="email" name="email" placeholder="Your email address" required autocomplete="email">
+            <button type="submit">Join Free</button>
+        </form>
+        <div class="form-benefits">
+            <div class="form-benefit"><span>✓</span> Free Chapter 1</div>
+            <div class="form-benefit"><span>✓</span> 10% off future books</div>
+            <div class="form-benefit"><span>✓</span> Exclusive updates</div>
+            <div class="form-benefit"><span>✓</span> No spam, ever</div>
+        </div>
+        <p class="nl-note">We respect your privacy. Unsubscribe anytime with one click.</p>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer>
+    <p class="footer-copy">&copy; 2026 Adrian Vale. All rights reserved.</p>
+    <div class="footer-links">
+        <a href="https://www.amazon.com/dp/B0H4RHY61P" target="_blank" rel="noopener">Amazon Kindle</a>
+        <a href="https://www.amazon.com/dp/B0H4RHY61P" target="_blank" rel="noopener">Amazon Paperback</a>
+        <a href="https://www.linkedin.com/in/adrian-vale-14a7363a3" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://www.goodreads.com" target="_blank" rel="noopener">Goodreads</a>
+    </div>
+    <p class="footer-search">Search <a href="https://www.amazon.com/dp/B0H4RHY61P" target="_blank" rel="noopener">"2026: The New Rules of Digital Wealth"</a> on Amazon</p>
+</footer>
+
+<!-- Sticky Bottom Bar -->
+<div class="sticky-bar" id="stickyBar">
+    <div class="sticky-bar-inner">
+        <div class="sticky-bar-text">📥 Get <span>Chapter 1 Free</span> + exclusive updates</div>
+        <form class="email-form" name="sticky-signup" data-netlify="true" action="#" method="post" onsubmit="handleFormSubmit(event, this)">
+            <input type="hidden" name="form-name" value="sticky-signup">
+            <input type="hidden" name="bot-field" class="bot-field">
+            <input type="email" name="email" placeholder="Your email" required autocomplete="email">
+            <button type="submit">Get Free Chapter</button>
+        </form>
+        <button class="sticky-close" onclick="document.getElementById('stickyBar').classList.remove('visible')" aria-label="Close">&times;</button>
+    </div>
+</div>
+
+<!-- Exit Intent Popup -->
+<div class="exit-overlay" id="exitPopup">
+    <div class="exit-popup">
+        <button class="exit-close" onclick="closeExitPopup()" aria-label="Close">&times;</button>
+        <div class="exit-discount">🎉 SPECIAL OFFER</div>
+        <h3>Wait — Don't Leave Without Your Free Chapter!</h3>
+        <p>Get the full <strong style="color:#60a5fa;">Chapter 1: "The Great Unlearning"</strong> delivered to your inbox. Plus get <strong style="color:#facc15;">10% off</strong> all future books.</p>
+        <form class="email-form" name="exit-popup" data-netlify="true" action="#" method="post" onsubmit="handleFormSubmit(event, this); setTimeout(closeExitPopup, 500);">
+            <input type="hidden" name="form-name" value="exit-popup">
+            <input type="hidden" name="bot-field" class="bot-field">
+            <input type="email" name="email" placeholder="Your best email address" required autocomplete="email">
+            <button type="submit">📥 Send My Free Chapter</button>
+        </form>
+        <p style="color:#475569; font-size:0.78rem; margin-top:8px;">Join 1,000+ founders. Instant delivery. Unsubscribe anytime.</p>
+    </div>
+</div>
+
+<script>
+// Handle form submission with success feedback
+function handleFormSubmit(e, form) {
+    e.preventDefault();
+    const honeypot = form.querySelector('.bot-field');
+    if (honeypot && honeypot.value) return; // Bot detected
+
+    // Show success state
+    const btn = form.querySelector('button');
+    const input = form.querySelector('input[type="email"]');
+    const originalText = btn.textContent;
+
+    btn.textContent = '✓ Subscribed!';
+    btn.style.background = '#16a34a';
+    btn.disabled = true;
+    if (input) { input.value = ''; input.disabled = true; }
+
+    // Actually submit to Netlify after delay
+    setTimeout(() => {
+        form.submit();
+    }, 300);
+
+    // Dismiss sticky bar if it was submitted there
+    const stickyBar = document.getElementById('stickyBar');
+    if (stickyBar && form.closest('.sticky-bar')) {
+        setTimeout(() => stickyBar.classList.remove('visible'), 2000);
+    }
+}
+
+// Sticky Bar: show after scrolling past hero
+let stickyShown = false;
+const stickyDismissed = localStorage.getItem('stickyDismissed');
+window.addEventListener('scroll', () => {
+    if (stickyShown || stickyDismissed) return;
+    if (window.scrollY > 600) {
+        document.getElementById('stickyBar').classList.add('visible');
+        stickyShown = true;
+    }
+});
+
+// Exit Intent Popup
+let exitShown = false;
+document.addEventListener('mouseleave', (e) => {
+    if (exitShown || stickyDismissed) return;
+    if (e.clientY < 10) {
+        document.getElementById('exitPopup').classList.add('active');
+        exitShown = true;
+    }
+});
+
+function closeExitPopup() {
+    document.getElementById('exitPopup').classList.remove('active');
+    localStorage.setItem('exitDismissed', 'true');
+}
+
+// Close popup on overlay click
+document.getElementById('exitPopup').addEventListener('click', (e) => {
+    if (e.target === e.currentTarget) closeExitPopup();
+});
+
+// Hide honeypot fields
+document.querySelectorAll('.bot-field').forEach(el => {
+    el.style.position = 'absolute';
+    el.style.left = '-9999px';
+    el.style.opacity = '0';
+    el.style.height = '0';
+});
+</script>
+
+</body>
+</html>
